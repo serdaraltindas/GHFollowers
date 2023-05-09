@@ -11,6 +11,8 @@
 		AE3CF0C12A0A7DC9001D0BCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF0C02A0A7DC9001D0BCF /* SceneDelegate.swift */; };
 		AE3CF0C82A0A7DCA001D0BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */; };
 		AE3CF0CB2A0A7DCA001D0BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3CF0C92A0A7DCA001D0BCF /* LaunchScreen.storyboard */; };
+		AE3CF0D42A0A8AF6001D0BCF /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF0D32A0A8AF6001D0BCF /* SearchVC.swift */; };
+		AE3CF0D62A0A8B34001D0BCF /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3CF0CA2A0A7DCA001D0BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3CF0CC2A0A7DCA001D0BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3CF0D32A0A8AF6001D0BCF /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			isa = PBXGroup;
 			children = (
 				AE3CF0D22A0A7F7A001D0BCF /* Delegate */,
-				AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */,
+				AE3CF0D32A0A8AF6001D0BCF /* SearchVC.swift */,
+				AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */,
 				AE3CF0C92A0A7DCA001D0BCF /* LaunchScreen.storyboard */,
+				AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */,
 				AE3CF0CC2A0A7DCA001D0BCF /* Info.plist */,
 			);
 			path = GHFollowers;
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3CF0D62A0A8B34001D0BCF /* FavoritesListVC.swift in Sources */,
+				AE3CF0D42A0A8AF6001D0BCF /* SearchVC.swift in Sources */,
 				AE3CF0BF2A0A7DC9001D0BCF /* AppDelegate.swift in Sources */,
 				AE3CF0C12A0A7DC9001D0BCF /* SceneDelegate.swift in Sources */,
 			);
