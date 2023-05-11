@@ -12,7 +12,7 @@ class GFAlertVC: UIViewController {
     var message : String?
     var buttonTitle : String?
     
-    init(title : String, message :String, buttonTitle: String) {
+    init(title : String, message : String, buttonTitle: String) {
         super.init(nibName: nil, bundle: nil)
         self.alertTitle = title
         self.message = message
@@ -29,7 +29,7 @@ class GFAlertVC: UIViewController {
         configureContainerView()
         configureTitleLabel()
         configureActionButton()
-        configureBodyLabel()
+        configureMessageLabel()
     }
     
     func configureContainerView() {
@@ -45,7 +45,7 @@ class GFAlertVC: UIViewController {
             containerView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             containerView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             containerView.widthAnchor.constraint(equalToConstant: 250),
-            containerView.heightAnchor.constraint(equalToConstant: 200)
+            containerView.heightAnchor.constraint(equalToConstant: 125)
         ])
     }
     
@@ -75,7 +75,7 @@ class GFAlertVC: UIViewController {
         
     }
     
-    func configureBodyLabel() {
+    func configureMessageLabel() {
         containerView.addSubview(messageLabel)
         messageLabel.text = message ?? "Unable to complete request!"
         messageLabel.numberOfLines = 4
