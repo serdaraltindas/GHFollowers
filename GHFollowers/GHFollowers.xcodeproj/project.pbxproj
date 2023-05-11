@@ -17,6 +17,8 @@
 		AE78DACA2A0CD54400CF00C7 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DAC92A0CD54400CF00C7 /* GFTextField.swift */; };
 		AE78DACC2A0D0A0F00CF00C7 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DACB2A0D0A0F00CF00C7 /* FollowerListVC.swift */; };
 		AE78DACE2A0D4B3600CF00C7 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DACD2A0D4B3600CF00C7 /* GFTitleLabel.swift */; };
+		AE78DAD02A0D4FC400CF00C7 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DACF2A0D4FC400CF00C7 /* GFBodyLabel.swift */; };
+		AE78DAD22A0D511E00CF00C7 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DAD12A0D511E00CF00C7 /* GFAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AE78DAC92A0CD54400CF00C7 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		AE78DACB2A0D0A0F00CF00C7 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		AE78DACD2A0D4B3600CF00C7 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		AE78DACF2A0D4FC400CF00C7 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		AE78DAD12A0D511E00CF00C7 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				AE3CF0D22A0A7F7A001D0BCF /* Delegate */,
 				AE3CF0D32A0A8AF6001D0BCF /* SearchVC.swift */,
 				AE78DACD2A0D4B3600CF00C7 /* GFTitleLabel.swift */,
+				AE78DACF2A0D4FC400CF00C7 /* GFBodyLabel.swift */,
+				AE78DAD12A0D511E00CF00C7 /* GFAlertVC.swift */,
 				AE78DACB2A0D0A0F00CF00C7 /* FollowerListVC.swift */,
 				AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */,
 				AE78DAC72A0CD13F00CF00C7 /* GFButton.swift */,
@@ -161,6 +167,8 @@
 				AE3CF0D62A0A8B34001D0BCF /* FavoritesListVC.swift in Sources */,
 				AE78DAC82A0CD13F00CF00C7 /* GFButton.swift in Sources */,
 				AE3CF0D42A0A8AF6001D0BCF /* SearchVC.swift in Sources */,
+				AE78DAD22A0D511E00CF00C7 /* GFAlertVC.swift in Sources */,
+				AE78DAD02A0D4FC400CF00C7 /* GFBodyLabel.swift in Sources */,
 				AE78DACE2A0D4B3600CF00C7 /* GFTitleLabel.swift in Sources */,
 				AE78DACC2A0D0A0F00CF00C7 /* FollowerListVC.swift in Sources */,
 				AE3CF0BF2A0A7DC9001D0BCF /* AppDelegate.swift in Sources */,
