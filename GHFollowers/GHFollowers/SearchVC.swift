@@ -6,20 +6,26 @@ class SearchVC: UIViewController {
     let logoImageView = UIImageView()
     let usernameTextField = GFTextField()
     let callToActionButton = GFButton(backgroundColor: .systemGreen, title: "Get Followers")
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         configureLogoImageView()
         configureTextField()
         configureCallToActionButton()
+        createDismissKeyboardTapGesture()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
     }
-
+    
+    func createDismissKeyboardTapGesture() {
+        let tap = UITapGestureRecognizer(target: self.view , action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+    }
+    
     func configureLogoImageView() {
         view.addSubview(logoImageView)
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
@@ -48,11 +54,11 @@ class SearchVC: UIViewController {
         view.addSubview(callToActionButton)
         //Tralling ve bottom için negatif kullanıyoruz.
         NSLayoutConstraint.activate([
-            callToActionButton.topAnchor.constraint(equalTo: usernameTextField.bottomAnchor, constant: 48),
+            callToActionButton.topAnchor.constraint(equalTo: usernameTextField.bottomAnchor, constant: 60),
             callToActionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
             callToActionButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             callToActionButton.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
-
+    
 }
