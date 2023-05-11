@@ -70,10 +70,11 @@
 		AE3CF0BD2A0A7DC9001D0BCF /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				AE78DAD52A0D89B100CF00C7 /* Screens */,
-				AE78DAD62A0D8A2200CF00C7 /* CustomViews */,
 				AE78DAD72A0D8A7400CF00C7 /* Extension */,
+				AE78DAD62A0D8A2200CF00C7 /* CustomViews */,
+				AE78DAD52A0D89B100CF00C7 /* Screens */,
 				AE3CF0D22A0A7F7A001D0BCF /* Delegate */,
+				AE3CF0CC2A0A7DCA001D0BCF /* Info.plist */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -81,11 +82,10 @@
 		AE3CF0D22A0A7F7A001D0BCF /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				AE3CF0C92A0A7DCA001D0BCF /* LaunchScreen.storyboard */,
-				AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */,
-				AE3CF0CC2A0A7DCA001D0BCF /* Info.plist */,
 				AE3CF0BE2A0A7DC9001D0BCF /* AppDelegate.swift */,
 				AE3CF0C02A0A7DC9001D0BCF /* SceneDelegate.swift */,
+				AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */,
+				AE3CF0C92A0A7DCA001D0BCF /* LaunchScreen.storyboard */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";

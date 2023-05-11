@@ -1,9 +1,3 @@
-//
-//  UIViewController+Ext.swift
-//  GHFollowers
-//
-//  Created by Serdar Altındaş on 11.05.2023.
-//
 
 import UIKit
 
