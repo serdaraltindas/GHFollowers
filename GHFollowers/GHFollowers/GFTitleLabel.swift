@@ -16,5 +16,4 @@ class GFTitleLabel: UILabel {
         self.textAlignment = textAlignment
     
     }
-
 }
