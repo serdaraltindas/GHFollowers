@@ -28,6 +28,8 @@ class GFAlertVC: UIViewController {
         view.backgroundColor = UIColor(displayP3Red: 0, green: 0, blue: 0, alpha: 0.75)
         configureContainerView()
         configureTitleLabel()
+        configureActionButton()
+        configureBodyLabel()
     }
     
     func configureContainerView() {
@@ -59,6 +61,36 @@ class GFAlertVC: UIViewController {
         ])
     }
     
+    func configureActionButton() {
+        containerView.addSubview(actionButton)
+        actionButton.setTitle(buttonTitle ?? "OK" , for: .normal)
+        actionButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
+        
+        NSLayoutConstraint.activate([
+            actionButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -20),
+            actionButton.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 20),
+            actionButton.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -20),
+            actionButton.heightAnchor.constraint(equalToConstant: 45)
+        ])
+        
+    }
     
-
+    func configureBodyLabel() {
+        containerView.addSubview(messageLabel)
+        messageLabel.text = message ?? "Unable to complete request!"
+        messageLabel.numberOfLines = 4
+        
+        NSLayoutConstraint.activate([
+        
+            messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8),
+            messageLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 20),
+            messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -20),
+            messageLabel.bottomAnchor.constraint(equalTo: actionButton.topAnchor, constant: -12)
+        
+        ])
+    }
+    
+    @objc func dismissVC() {
+        self.dismiss(animated: true)
+    }
 }
