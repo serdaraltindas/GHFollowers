@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         func createSearchNC() -> UINavigationController {
             let searchVC = SearchVC()
-            UINavigationBar.appearance().backgroundColor = .black
+            UINavigationBar.appearance().backgroundColor = .white
             searchVC.title = "Search"
             searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
             return UINavigationController(rootViewController: searchVC)
@@ -32,8 +32,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         func createTabbar() -> UITabBarController {
             let tabbar = UITabBarController()
-            UITabBar.appearance().tintColor = .white
-            UITabBar.appearance().backgroundColor = .black
+            UITabBar.appearance().tintColor = .systemGreen
+            UITabBar.appearance().backgroundColor = .white
             UITabBar.appearance().barStyle = .black
             tabbar.viewControllers = [createSearchNC(), createFavoritesNC()]
             return tabbar

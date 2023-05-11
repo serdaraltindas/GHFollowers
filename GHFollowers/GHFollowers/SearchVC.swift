@@ -46,7 +46,7 @@ class SearchVC: UIViewController {
     
     func configureCallToActionButton() {
         view.addSubview(callToActionButton)
-        
+        //Tralling ve bottom için negatif kullanıyoruz.
         NSLayoutConstraint.activate([
             callToActionButton.topAnchor.constraint(equalTo: usernameTextField.bottomAnchor, constant: 48),
             callToActionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
