@@ -15,6 +15,7 @@
 		AE3CF0D62A0A8B34001D0BCF /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */; };
 		AE78DAC82A0CD13F00CF00C7 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DAC72A0CD13F00CF00C7 /* GFButton.swift */; };
 		AE78DACA2A0CD54400CF00C7 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DAC92A0CD54400CF00C7 /* GFTextField.swift */; };
+		AE78DACC2A0D0A0F00CF00C7 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78DACB2A0D0A0F00CF00C7 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		AE78DAC72A0CD13F00CF00C7 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		AE78DAC92A0CD54400CF00C7 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		AE78DACB2A0D0A0F00CF00C7 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				AE3CF0D22A0A7F7A001D0BCF /* Delegate */,
 				AE3CF0D32A0A8AF6001D0BCF /* SearchVC.swift */,
+				AE78DACB2A0D0A0F00CF00C7 /* FollowerListVC.swift */,
 				AE3CF0D52A0A8B34001D0BCF /* FavoritesListVC.swift */,
 				AE78DAC72A0CD13F00CF00C7 /* GFButton.swift */,
 				AE78DAC92A0CD54400CF00C7 /* GFTextField.swift */,
@@ -155,6 +158,7 @@
 				AE3CF0D62A0A8B34001D0BCF /* FavoritesListVC.swift in Sources */,
 				AE78DAC82A0CD13F00CF00C7 /* GFButton.swift in Sources */,
 				AE3CF0D42A0A8AF6001D0BCF /* SearchVC.swift in Sources */,
+				AE78DACC2A0D0A0F00CF00C7 /* FollowerListVC.swift in Sources */,
 				AE3CF0BF2A0A7DC9001D0BCF /* AppDelegate.swift in Sources */,
 				AE3CF0C12A0A7DC9001D0BCF /* SceneDelegate.swift in Sources */,
 			);
