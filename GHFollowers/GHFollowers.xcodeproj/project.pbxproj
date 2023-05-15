@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0D3DC32A1236D900E0F63B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D3DC22A1236D900E0F63B /* NetworkManager.swift */; };
 		AE3CF0BF2A0A7DC9001D0BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF0BE2A0A7DC9001D0BCF /* AppDelegate.swift */; };
 		AE3CF0C12A0A7DC9001D0BCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF0C02A0A7DC9001D0BCF /* SceneDelegate.swift */; };
 		AE3CF0C82A0A7DCA001D0BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3CF0C72A0A7DCA001D0BCF /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0D3DC22A1236D900E0F63B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AE3CF0BB2A0A7DC9001D0BCF /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3CF0BE2A0A7DC9001D0BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3CF0C02A0A7DC9001D0BCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE0D3DC12A1236C000E0F63B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D3DC22A1236D900E0F63B /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		AE3CF0B22A0A7DC9001D0BCF = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		AE3CF0BD2A0A7DC9001D0BCF /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				AE0D3DC12A1236C000E0F63B /* Managers */,
 				AE84813D2A0FABA800C69F69 /* Model */,
 				AE78DAD72A0D8A7400CF00C7 /* Extension */,
 				AE78DAD62A0D8A2200CF00C7 /* CustomViews */,
@@ -214,6 +225,7 @@
 				AE78DAD02A0D4FC400CF00C7 /* GFBodyLabel.swift in Sources */,
 				AE84813F2A0FABBD00C69F69 /* Follower.swift in Sources */,
 				AE78DACE2A0D4B3600CF00C7 /* GFTitleLabel.swift in Sources */,
+				AE0D3DC32A1236D900E0F63B /* NetworkManager.swift in Sources */,
 				AE78DACC2A0D0A0F00CF00C7 /* FollowerListVC.swift in Sources */,
 				AE3CF0BF2A0A7DC9001D0BCF /* AppDelegate.swift in Sources */,
 				AE3CF0C12A0A7DC9001D0BCF /* SceneDelegate.swift in Sources */,
