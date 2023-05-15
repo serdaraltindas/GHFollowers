@@ -1,4 +1,5 @@
-
+//Singleton -> Global Manager!
+//You can acces everywhere!
 import UIKit
 
 class SearchVC: UIViewController {
@@ -17,7 +18,7 @@ class SearchVC: UIViewController {
         configureCallToActionButton()
         createDismissKeyboardTapGesture()
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
